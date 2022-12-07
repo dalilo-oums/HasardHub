@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'ambleregular';
+    src: url('Amble-Regular-webfont.eot');
+    src: url('Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Amble-Regular-webfont.woff2') format('woff2'),
+         url('Amble-Regular-webfont.woff') format('woff'),
+         url('Amble-Regular-webfont.ttf') format('truetype'),
+         url('Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+.ici
+{
+	color: orangered;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+p
+{
+color: black;
+font-size: 1.6em;
+}
+
+h1
+{
+color: silver;
+font-family: Arial Black;
+text-align: center;
+border: 15px blue double;
+				border-radius: 30px;
+				box-shadow: 10px 10px 10px black;
+				background-color: navy;
+				text-shadow: 10px 10px 10px black;
+}
+
+h3
+{
+color: maroon;
+font-family: ambleregular;
+border: 12px black double;
+text-align: center;
+background-color: white;
+}
+
+h2
+{
+	font-family: "Arial Black";
+	text-decoration: underline;
+	text-align: center;
+	}
+
+.avec
+{
+	font-family:impact ;
+	}
+
+	.labas
+{
+	font-family:ambleregular ;
+	}
+
+
+.il 
+{
+text-decoration: underline;
+}
+
+
+.el 
+{
+	text-decoration: line-through;
+	}
+
+	h4
+	{
+		text-align: right;
+		color: blue;
+		font-family: ambleregular;
+	}
+
+	h5
+	{
+		background-color: skyblue;
+		}
+
+		mark
+		{
+			text-decoration: underline;
+			}
+
+			.vc 
+			{
+			text-decoration: underline;
+			color: red;
+			}
+
+			.vs
+			{
+				border: 7px skyblue double;
+				}
+
+				.sv
+				{
+				border: 15px blue double;
+				border-radius: 30px;
+								}
+
+								.f 
+									{
+				border: 15px blue double;
+				border-radius: 30px;
+				box-shadow: 10px 10px 10px black;
+								}
+
+								.u
+								{
+									font-weight: bold;
+									text-shadow: 10px 10px 10px black;
+									}
+
+
+
+article 
+{
+	border: 6px black groove;
+	box-shadow: 10px 10px 10px beige;
+background-color: white;
+padding: 10px;
+margin: auto;
+width: 600px;
+}
+
+
+aside
+{
+	border: 6px black groove;
+	box-shadow: 10px 10px 10px beige;
+	background-color: silver;
+	padding: 10px;
+margin: auto;
+width: 600px;
+}
+
+
+
+
+
+nav
+{
+	color: silver;
+	border: 6px black groove;
+	box-shadow: 10px 10px 10px beige;
+	background-color: teal;
+	padding: 10px;
+margin: auto;
+width: 100%;
+text-align: justify-all;
+font-size: 1.8em;
+}
+
+
+
+.xr
+{
+color: white;
+font-family: Arial Black;
+text-align: center;
+border: 15px navy double;
+				border-radius: 30px;
+				box-shadow: 10px 10px 10px black;
+				background-color: navy;
+				text-shadow: 10px 10px 10px black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+
+
+.contener
+{
+   border: 7px black groove;
+   background-color: white;
+   display: flex;
+   flex-wrap: nowrap;
+   height: 250px;
+
+}
+
+.item
+{
+	height: 250px;
+	width: 250px;
+}
+
+.item:nth-child(1)
+{
+	background-color: beige;
+}
+
+.item:nth-child(2)
+{
+	background-color: aqua;
+}
+
+.item:nth-child(3)
+{
+	background-color: fuchsia;
+}
+
+.flexbux
+{
+	border: 2px black groove;
+	background-color: white;
+	text-align: center;
+	
+}
+
+
+.boit
+{
+   border: 7px black groove;
+   background-color: white;
+   flex-direction: column;
+   flex-wrap: wrap;
+   height: 850px;
+
+}
+
+.jug
+{
+	height: 250px;
+	width: 250px;
+}
+
+
+.jug:nth-child(1)
+{
+	background-color: black;
+}
+
+.jug:nth-child(2)
+{
+	background-color:yellow;
+}
+
+.jug:nth-child(3)
+{
+	background-color: green;
+}
+
+
+.algu
+{
+   border: 7px black groove;
+   background-color: white;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+   height: 250px;
+
+}
+
+
+.chapat
+{
+	height: 250px;
+	width: 250px;
+}
+
+
+.chapat:nth-child(1)
+{
+	background-color: black;
+}
+
+.chapat:nth-child(2)
+{
+	background-color:yellow;
+}
+
+.chapat:nth-child(3)
+{
+	background-color: green;
+}
+
+
+
+
+.space
+{
+   border: 7px black groove;
+   background-color: white;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   height: 250px;
+
+}
+
+
+.around
+{
+	height: 250px;
+	width: 250px;
+}
+
+
+.around:nth-child(1)
+{
+	background-color: black;
+}
+
+.around:nth-child(2)
+{
+	background-color:yellow;
+}
+
+.around:nth-child(3)
+{
+	background-color: green;
+}
+
+
+
+.ali
+{
+   border: 7px black groove;
+   background-color: white;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: stretch;
+   height: 500px;
+
+}
+
+
+.stretch
+{
+
+	width: 250px;
+}
+
+.stretch:nth-child(1)
+{
+	background-color: black;
+}
+
+.stretch:nth-child(2)
+{
+	background-color:yellow;
+}
+
+.stretch:nth-child(3)
+{
+	background-color: green;
+}
+
+
+body
+{
+	background-color: aqua;
+}
